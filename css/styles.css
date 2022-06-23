@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html { 
+    background: url('/images/living-area.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.login-form {
+    background: #00544E;
+    border-radius: 0.5rem;
+    text-align: center;
+    width: 20rem;
+    height: fit-content;
+    color: white;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: white;
+}
+
+.first-section {
+    padding: 2rem 0;
+}
+
+.fa-fingerprint {
+    font-size: 2.5rem;
+    opacity: 0.8;
+    padding: 0.5rem 0;
+}
+
+form {
+    height: 80%;
+}
+
+input {
+    border: none;
+    outline:none;
+    border-bottom: 1px solid rgb(255,255,255,.5);
+    background-color: rgb(0,84,78);
+    padding: 0.5rem;
+    width: 16rem;
+}
+
+::placeholder, input:focus {
+    color: rgb(255,255,255,.5);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.second-section {
+    border-bottom: 1px solid rgb(255,255,255,.5);
+    padding: 0 2rem 2rem 2rem;
+}
+
+button {
+    padding: 0.5rem 3rem;
+    border-radius: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0,84,78);
+    font-weight: 700;
+    font-size: 1rem;
+    border: 0px;
+}
+
+p {
+    font-size: 0.8rem;
+    opacity: 0.5;
+    font-weight: 400;
+    line-height: 1.2rem;
+}
+
+.third-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 0.9rem;
+    opacity: 0.8;
+    font-weight: 500;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    padding: 1rem 0;
+}
